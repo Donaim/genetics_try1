@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
@@ -13,10 +12,10 @@ using System.Windows.Forms;
 
 namespace Testp
 {
-    [TestClass]
+    // [TestClass]
     public class First
     {
-        [TestMethod]
+        // [TestMethod]
         public void test_field_ctrl1()
         {
             U.InputSize = MyAgent.SurroundingLen *  NatureObject.IDSpaceCount + MyAgent.IntrospectLen + ActionsBase.UncertainEvent.IDSpaceLenght;

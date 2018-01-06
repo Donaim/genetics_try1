@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 using core;
@@ -10,10 +9,10 @@ using System.Windows.Forms;
 
 namespace Testp
 {
-    [TestClass]
+    // [TestClass]
     public class Custom
     {
-        [TestMethod]
+        // [TestMethod]
         public void test_get_surrounding()
         {
             //Console.WriteLine("START");
@@ -36,7 +35,7 @@ namespace Testp
             //}
         }
 
-        [TestMethod]
+        // [TestMethod]
         public void test_walking()
         {
             //Console.WriteLine("START");

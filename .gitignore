@@ -1,0 +1,17 @@
+
+
+*/obj/*
+
+*.dll
+*.dll.config
+*.exe
+*.exe.config
+*.pdb
+*.xml
+
+
+!**/ref/*
+!**/res/*
+
+!important/*
+
