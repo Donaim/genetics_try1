@@ -26,7 +26,7 @@ namespace stdSimpleNeural
         public static vnn createNewNN()
         {
             var nn = new vnn(U.InputSize, NNHIDEN, 1);
-            nn.RandomizeUniform(mult1: 4.5);
+            addon.RandomizeUniform(nn);
             return nn;
         }
 

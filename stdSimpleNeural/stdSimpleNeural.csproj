@@ -45,10 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="VNNAddOn">
-      <HintPath>E:\OneDrive\Documents\Programing\C#\Projects\vneuralnet\VNNAddOn\bin\Release\VNNAddOn.dll</HintPath>
+      <HintPath>..\ref\VNNAddOn.dll</HintPath>
     </Reference>
     <Reference Include="VNNLib">
-      <HintPath>E:\OneDrive\Documents\Programing\C#\Projects\vneuralnet\VNNLib\bin\Release\VNNLib.dll</HintPath>
+      <HintPath>..\ref\VNNLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
